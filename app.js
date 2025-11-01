@@ -7,7 +7,7 @@ const ApiError = require("./app/api-error");
 app.use(cors());
 // Middleware to parse JSON
 app.use(express.json()); 
-
+ 
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to contact book application." });
 });
