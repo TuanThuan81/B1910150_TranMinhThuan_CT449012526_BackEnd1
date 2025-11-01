@@ -4,7 +4,7 @@ exports.create = (req, res) => {
 
 exports.finAll = (req, res) => {
     res.send({ message: "finAll handler" });
-};
+}; 
 
 exports.findOne = (req, res) => {
     res.send({ message: "findOne handler" });
